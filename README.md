@@ -57,6 +57,7 @@ Al ejecutar el programa se mostrará el siguiente menú:
 /
 ├── main.py           # Punto de entrada y menú principal
 ├── funciones.py      # Todas las funciones del sistema
+├── validaciones.py   # Funciones de validación de entrada
 ├── paises.csv        # Dataset base de países
 └── README.md         # Este archivo
 ```
