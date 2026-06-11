@@ -1,5 +1,8 @@
 from funciones import *
 from validaciones import pedir_opcion, pedir_texto
+import os
+
+RUTA_CSV = os.path.join(os.path.dirname(__file__), "paises.csv")
 
 # ------- Estructura general del menu -----
 
@@ -22,10 +25,10 @@ def menu():
         if opcion == "1":
             print()
             if agregar_pais(paises):
-                guardar_csv(paises, "paises.csv")
+                guardar_csv(paises, RUTA_CSV)
         elif opcion == "2":
             if actualizar_pais(paises):
-                guardar_csv(paises, "paises.csv")
+                guardar_csv(paises, RUTA_CSV)
         elif opcion == "3":
             texto_busqueda = pedir_texto("Ingrese el nombre del país a buscar: ")
             resultados = buscar_por_nombre(paises, texto_busqueda)
@@ -40,7 +43,7 @@ def menu():
             print("Saliendo...")
             break
 
-paises = cargar_csv("paises.csv")
+paises = cargar_csv(RUTA_CSV)
 
 if paises is not None:
     menu()
