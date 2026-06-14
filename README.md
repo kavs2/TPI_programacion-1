@@ -1,4 +1,3 @@
-
 # 🌍 Gestión de Datos de Países en Python
 
 **Trabajo Práctico Integrador — Programación 1**
@@ -114,16 +113,16 @@ Países por continente:
 
 ## 🎥 Video demostrativo
 
-🔗 [Ver video en YouTube](https://www.youtube.com/watch?v=PENDIENTE)
+🔗 [Pendiente — se actualizará antes de la entrega]
 
 ---
 
 ## 📑 Documentación PDF
 
-🔗 [Ver documentación académica](https://github.com/USUARIO/REPOSITORIO/blob/main/documentacion.pdf)
+🔗 [Ver documentación académica](https://github.com/kavs2/TPI_programacion-1/blob/main/documentacion.pdf)
 
 ---
 
 ## 🔗 Repositorio
 
-🔗 [https://github.com/USUARIO/REPOSITORIO](https://github.com/USUARIO/REPOSITORIO)
+🔗 [https://github.com/kavs2/TPI_programacion-1](https://github.com/kavs2/TPI_programacion-1)
